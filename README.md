@@ -1,5 +1,9 @@
 # Computer Vision Assessment Task: Black Gun Detection
-## how to run the notebook
+the inference video can be downloaded here https://drive.google.com/drive/folders/1m0DQjhCUc1-6lgnj8Py7H93PPlSaS7WD?usp=sharing
+## How to run the notebook
+      1. clone this repos and install the requirement.txt
+      2. download the dataset here https://drive.google.com/drive/folders/1m0DQjhCUc1-6lgnj8Py7H93PPlSaS7WD?usp=sharing 
+      3. run the notebook for training and inference
 
 ## Training Results using Synthetic Data (SD)
 ![Synthetic Data Results](https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/main/runs/detect/train/results.png)
@@ -7,7 +11,7 @@
       They decrease overall, but fluctuate noticeably, especially in validation losses (val/dfl_loss and val/box_loss).
       This fluctuation suggests synthetic data introduces less consistent patterns, possibly due to unrealistic variations or lack of diversity.
 - Precision & Recall:
-      Both reach high values quickly, but the early spike and slight oscillations indicate the model adapts fast but with instability.
+      The early spike and slight oscillations indicate the model instability.
 
 ## Training Results using Real Data
 ![Real Data Results](https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/main/runs/detect/train4/results.png)
