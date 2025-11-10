@@ -3,7 +3,7 @@
 
 ## Training Results using Synthetic Data (SD)
 ![Synthetic Data Results]
-(https://github.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/blob/main/runs/detect/train/results.png)
+(https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/main/runs/detect/train/results.png)
 - Loss curves (train and val):
       They decrease overall, but fluctuate noticeably, especially in validation losses (val/dfl_loss and val/box_loss).
       This fluctuation suggests synthetic data introduces less consistent patterns, possibly due to unrealistic variations or lack of diversity.
@@ -12,7 +12,7 @@
 
 ## Training Results using Real Data
 ![Real Data Results]
-(https://github.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/blob/main/runs/detect/train4/results.png)
+(https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/main/runs/detect/train4/results.png)
 - Loss curves (train and val):
       Much smoother and more stable than synthetic data.
       Indicates consistent learning and better generalization.
