@@ -25,11 +25,15 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
   # Inference Synthetic Data Model and Real Data Model
   
 <p align="center">
-  <b>Synthetic Data inference:</b><br>
-   <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf1.png">
-  < <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf2.png">
-  https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf3.png
+  <b>Synthetic Data inference:</b>
 </p>
+<table align="center">
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf1.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf2.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf3.png"></td>
+  </tr>
+</table>
 
 
 
