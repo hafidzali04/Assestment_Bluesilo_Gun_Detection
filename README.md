@@ -25,7 +25,7 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
   # Inference Synthetic Data Model and Real Data Model
   
 <p align="center">
-  <b>Synthetic Data inference:</b>
+  <b>Synthetic Data model inference:</b>
 </p>
 <table align="center">
   <tr>
@@ -38,9 +38,33 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
     <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf5.png"></td>
     <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf6.png"></td>
     <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf7.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf8.png"></td>
   </tr>
 </table>
 
+<p align="center">
+  <b>Real Data model inference:</b>
+</p>
+<table align="center">
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD1.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD2.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD3.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD4.png"></td>
+  </tr>
+ <tr>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD5.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD6.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD7.png"></td>
+    <td><img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/RD8.png"></td>
+  </tr>
+</table>
+
+### Summary
+> * **Synthetic Model:** Shows poor performance with low confidence (0.2-0.4), low accuracy, and false positive detections.
+> * **Real Model:** Demonstrates strong performance, achieving high confidence (0.6-0.9) and high accuracy.
+>
+> **Conclusion:** The model trained on the real dataset significantly outperforms the synthetic model.
 
 
 
