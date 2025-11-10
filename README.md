@@ -64,7 +64,7 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
 > * **Synthetic Dataset Model:**
 >     * Exhibits low confidence scores, typically between 0.2 and 0.4.
 >     * **Displays significant instability and flickering (blinking) in detections.**
->     * Prone to generating false positive detections.
+>     * Prone to generating false detections.
 > * **Real Dataset Model:**
 >     * Achieves high confidence scores, ranging from 0.6 to 0.9.
 >     * **Demonstrates greater stability in object detection.**
@@ -72,4 +72,19 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
 >
 > **Conclusion:** The model trained on real-world data yields superior and more reliable results, demonstrating greater stability compared to the model trained on synthetic data.
 
+## Recommendations for Improved Model Stability and Performance
+
+To address the flickering and low accuracy observed, future data collection should be structured to better simulate real-world surveillance challenges.
+
+### 1. Temporal & Motion Stability
+* **Longer Clips:** Capture **continuous clips** to teach the model how to maintain detection over time and eliminate flickering.
+* **Motion Blur:** Include videos with **fast object movement** and **rapid camera pans** to build robustness against motion blur.
+
+### 2. Environmental & Scene Diversity
+* **Lighting Extremes:** Stress-test the model by capturing footage in **low-light/night conditions** and **harsh direct sunlight**.
+* **Complex Backgrounds:** Record scenes in **highly cluttered environments** to prevent the model from getting confused by visual noise.
+
+### 3. Edge Cases & Occlusion Handling
+* **Partial Occlusion:** Include videos where the target object is **partially hidden** (e.g., obscured by clothing) to improve detection in difficult scenarios.
+* **Negative Examples:** Capture videos of common **look-alike objects** (e.g., power tools, toys) to refine the model's ability to distinguish guns from non-threats, reducing false positives.
 
