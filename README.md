@@ -60,11 +60,16 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
   </tr>
 </table>
 
-### Summary
-> * **Synthetic Model:** Shows poor performance with low confidence (0.2-0.4), low accuracy, and false positive detections.
-> * **Real Model:** Demonstrates strong performance, achieving high confidence (0.6-0.9) and high accuracy.
+### Performance Analysis
+> * **Synthetic Dataset Model:**
+>     * Exhibits low confidence scores, typically between 0.2 and 0.4.
+>     * **Displays significant instability and flickering (blinking) in detections.**
+>     * Prone to generating false positive detections.
+> * **Real Dataset Model:**
+>     * Achieves high confidence scores, ranging from 0.6 to 0.9.
+>     * **Demonstrates greater stability in object detection.**
+>     * Delivers high predictive accuracy.
 >
-> **Conclusion:** The model trained on the real dataset significantly outperforms the synthetic model.
-
+> **Conclusion:** The model trained on real-world data yields superior and more reliable results, demonstrating greater stability compared to the model trained on synthetic data.
 
 
