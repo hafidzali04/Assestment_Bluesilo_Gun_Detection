@@ -23,16 +23,14 @@ the inference video can be downloaded here https://drive.google.com/drive/folder
 
 
   # Inference Synthetic Data Model and Real Data Model
-  <p align="center">
+  
+<p align="center">
   <b>Synthetic Data inference:</b><br>
-  <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/png
-  <img src="https://raw.githubusercontent.com/hafidzali04/AssestmentGun_Detection/refs/heads/main/runs/SD%20inf2.png
-  <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/SD%20inf3.png
-  <img src="https://raw.githubusercontent.com/h/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf4.png
-  <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detections/main/runs/SD%20inf5.png
-  <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refsn/runs/SD%20inf6.png
-  <img src="https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/png
+  https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf1.png
+  https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf2.png
+  https://raw.githubusercontent.com/hafidzali04/Assestment_Bluesilo_Gun_Detection/refs/heads/main/runs/SD%20inf3.png
 </p>
+
 
 
 
